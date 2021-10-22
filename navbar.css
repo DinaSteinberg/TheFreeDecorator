@@ -1,0 +1,120 @@
+        
+
+
+
+@font-face {
+    font-family: scripted;
+		src: 
+        url('herrvonmuellerhoff-regular-webfont.woff2') format('woff2'),
+		url('herrvonmuellerhoff-regular-webfont.woff') format('woff'), 
+		url('HerrVonMuellerhoff-Regular.otf')format('otf'),
+		url('HerrVonMuellerhoff-Regular.ttf')format('ttf');
+
+        font-family: regular;
+		src: url('montserrat-regular-webfont.woff2') format('woff2'),
+		url('montserrat-regular-webfont.woff') format('woff'),
+		url('Montserrat-Regular.ttf') format('ttf');
+        }
+
+	h1{
+        font-size:3em;
+		line-height:1.25em;
+	    }
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'regular',Arial,sans-serif;
+        color:burlywood;
+
+    }
+hr{
+	width:60%;
+}
+    p, section{
+        font-family:Bookman, Georgia, serif;
+    }
+
+    body{
+        line-height:2em;
+	    text-align:center;
+    }
+
+	.navbar{
+        border:1px solid #ccc;
+        border-width:1px 0;
+        list-style:none;
+        margin:0;
+        padding:0;
+        text-align:center;
+    }
+    .dropdown{
+        display:inline;
+        position:relative;
+    }
+    .navbar a{
+        display:inline-block;
+        padding:10px;
+        text-decoration:none;
+        color:black;
+        font-family: regular;
+        font-size:20px;
+    }
+
+    .dropdown-content {
+        position: absolute;
+        background-color: white;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        left: -9999px;
+        margin: 0;
+        padding: 0;
+        text-align: left;
+}
+
+    .dropdown-content li{
+        display:block;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 10px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        white-space:nowrap;
+        font-size:smaller;
+        }
+
+    .dropdown:hover .dropdown-content{
+        left:0;
+    }
+
+    .dropdown-content :hover a{
+        background-color: #f1f1f1;
+    }
+
+    .dropdown :hover .dropdown-content a {
+        text-decoration: none;
+        background: none;
+    }
+        
+    .dropdown :hover .dropdown-content {
+        display: block;
+    }
+
+    .dropdown :hover .dropdown-content a:hover {
+        background: #f1f1f1;
+        color:burlywood;
+    }
+
+    a:hover {
+        background: #f1f1f1;
+        color:burlywood;
+    }
+	table{
+		margin:auto;
+	}
+img{
+width:60%;
+}
+p{
+text-align:center;
+font-size:inherit;
+}
